@@ -1,4 +1,4 @@
-# 🎬 monty-hall
+# 🚪 Monty Hall
 
 <div align="center">
 <img src="https://github.com/portfolio-projetos-dev/monty-hall/raw/main/.gitassets/capa.png" width="350" />
@@ -10,16 +10,18 @@
 </div>
 
 <div data-badges>
-    <img src="https://img.shields.io/badge/next.js-%23000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
-    <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-    <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React" />
-    <img src="https://img.shields.io/badge/node.js-%2343853D.svg?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
-    <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-    <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+    <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D" alt="Vue.js" />
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
 </div>
 </div>
 
-DESCRIÇÃO
+A aplicação Monty Hall é um projeto interativo que recria o famoso problema de Monty Hall, um paradoxo estatístico fascinante que desafia a intuição humana. A dinâmica do jogo envolve duas pessoas: uma que atuará como apresentador (responsável por configurar e conduzir o jogo) e outra como jogador.
+
+No início do jogo, o apresentador define a quantidade de portas que será utilizada. Atrás de uma dessas portas está o prêmio (representado por um presente), enquanto as demais estão vazias. O jogador, então, escolhe uma porta. Em seguida, o apresentador revela uma das portas restantes que não contém o presente, reduzindo as opções disponíveis. Neste momento, o jogador deve tomar uma decisão estratégica: manter sua escolha inicial ou trocar para outra porta restante.
+
+Ao final de cada rodada, o apresentador informa se o jogador ganhou ou perdeu. O jogo prossegue em novas rodadas até que todas as portas configuradas no início tenham sido abertas.
 
 ## 🖥️ Como rodar este projeto 🖥️
 
@@ -31,35 +33,37 @@ DESCRIÇÃO
 
 1. Clone este repositório:
 
-    ```sh
-    git clone https://github.com/portfolio-projetos-dev/monty-hall
-    ```
+   ```sh
+   git clone https://github.com/portfolio-projetos-dev/monty-hall
+   ```
 
 2. Acesse o diretório do projeto:
 
-    ```sh
-    cd monty-hall
-    ```
+   ```sh
+   cd monty-hall
+   ```
 
 3. Instale as dependências:
 
-    ```sh
-    npm install
-    ```
+   ```sh
+   npm install
+   ```
 
-4. Inicie o servidor (Next.js):
+4. Inicie o servidor:
 
-    ```sh
-    npm run dev
-    ```
+   ```sh
+   npm run dev
+   ```
 
-5. Acesse o projeto em [http://localhost:3000](http://localhost:3000).
+5. Acesse o projeto em [http://localhost:5173](http://localhost:5173).
 
 ## 🗒️ Features do projeto 🗒️
 
-- OUTRO
-- OUTRO
-- OUTRO
+- Configuração do número de portas pelo apresentador no início do jogo.
+- Escolha inicial de uma porta pelo jogador.
+- Revelação de uma porta vazia pelo apresentador após a escolha do jogador.
+- Interface intuitiva para facilitar a interação entre apresentador e jogador.
+- Possibilidade de reiniciar o jogo com novas configurações de portas.
 
 ![](https://github.com/portfolio-projetos-dev/monty-hall/raw/main/.gitassets/1.png)
 
@@ -69,5 +73,5 @@ DESCRIÇÃO
 
 ## 💎 Links úteis 💎
 
-- [Next.js](https://nextjs.org/docs)
-- [TypeScript](https://www.typescriptlang.org/docs)
+- [Vue](https://vuejs.org/guide/introduction)
+- [Problema de Monty Hall](https://pt.wikipedia.org/wiki/Problema_de_Monty_Hall)
